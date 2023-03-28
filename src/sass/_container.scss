@@ -1,0 +1,29 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://rare-gallery.com/uploads/posts/1039867-sunlight-sunset-reflection-sky-sunrise-morning-Sun-gradient-blurred-texture-horizon-circle-atmosphere-lens-flare-light-cloud-fog-dawn-shape-line-atmospheric-phenomenon-.jpg');
+}
+
+.container {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
